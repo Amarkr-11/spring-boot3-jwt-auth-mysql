@@ -40,21 +40,6 @@ Secure authentication and role-based authorization implemented using Spring Boot
     
     Maven – dependency management
 
-**📂 Project Structure**
-auth-demo/
-├─ pom.xml                       # Maven dependencies
-├─ src/main/java/com/amar/authdemo/
-│  ├─ AuthDemoApplication.java   # Main entry point
-│  ├─ config/SecurityConfig.java # Spring Security config
-│  ├─ security/                  # JWT filter & service
-│  ├─ model/                     # Entities (User, Role)
-│  ├─ repository/                # JPA repository
-│  ├─ dto/                       # Request & Response DTOs
-│  ├─ service/                   # Service layer
-│  └─ controller/                # REST Controllers
-└─ src/main/resources/
-   └─ application.yml             # DB + JWT configuration
-
 
 **🛡️ Security Workflow**
 
